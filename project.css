@@ -1,0 +1,270 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    width: 100%;
+    background-color: #000000;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  h1 {
+    color: antiquewhite;
+    font-size: 40px;
+  }
+  #top{
+    padding-top: 20px;
+    width: 100%;
+  }
+  
+  .orange-color {
+    color: orange;
+  }
+  .head {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    /* width: auto; */
+  
+  }
+  
+  .half-width {
+    width: 50%;
+    padding-left: 5%;
+    text-align: justify;
+  }
+  .dropdown-menu:hover{
+    background-color: orange;
+  }
+  
+  
+  .half-width img {
+    width: 65%;
+    padding-top: 30px;
+    border-radius: 10%;
+  }  
+  #navigation{
+    background-color: orange;
+    padding: 10px 10px;
+    height: 100%;
+    font-size: 17px;
+     width: 100%;
+  }
+
+  #navigation li {
+    padding: 0 10px;
+  }
+  .social {
+    display: flex;
+    margin-top: 1.5rem;
+    padding-top: 50px;
+    padding-left: 30px;
+    justify-content: center;
+  }
+  .fa-instagram {
+    background: #000000;
+    color: white;
+  }
+  .fa-twitter {
+    background: #000000;
+    color: rgb(84, 187, 201);
+  }
+  .fa-linkedin {
+    background: #000000;
+    color: #26457e;
+    
+  }
+  
+  .social li {
+    color: orange;
+    height: 2rem;
+    margin-right: 0.5rem;
+    text-align: center;
+    width: 71px;
+  }
+  
+  .social a {
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    height: 2rem;
+    justify-content: center;
+    transition-property: opacity, transform;
+    width: 20px;
+    will-change: opacity, transform;
+  }
+
+  #top:hover{
+    color:orange;
+    transition: all 1s;
+  }
+  
+  .social a:hover {
+    opacity: 1;
+    transform: scale(1.25);
+  }
+  
+  .social a:active {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
+  #navigation li a {
+    color: rgb(7, 7, 7);
+  }
+  
+  #navigation li a:hover {
+    background-color: #fffefe;
+    color: rgb(0, 0, 0)
+    opacity = 1;
+    transition: 0.3s;
+  }
+  
+  .navbar-brand,
+  .navbar-brand:hover {
+    color: rgb(32, 10, 10);
+    font-size: 20px;
+    font-style: italic;
+    font-style: bold;
+  }
+  
+.section {
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    padding: 20px 0;
+    font-size: 17px;
+  }
+  .aboutImage {
+    width: 65%;
+    padding-top: 30px;
+
+    
+  }
+  .experience-area {
+    display: flex;
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-position: left;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+  }
+  
+  
+  .experience-item {
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(0, 0, 0);
+    text-align: center;
+  }
+  h2.fs{
+    text-align: left;
+  }
+  h2.bd{
+    text-align: left;
+  }
+  p.fsp{
+    text-align: left;
+  }
+  p#ksp{
+    text-align: left;
+  }
+  
+  #full-stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 141, 34), rgb(27, 27, 27));
+    border-image-slice: 1;
+  }
+  
+  #web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 141, 34), rgb(49, 48, 48));
+    border-image-slice: 1;
+  }
+  .flexible-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding-top: 100px;
+    overflow: wrap;
+
+  }
+  #skills{
+    text-align: center;
+    color: antiquewhite;
+    font-family: "Poppins", sans-serif;
+  }
+  h1#skills{
+    text-transform: uppercase;
+	background: linear-gradient(to right, #000000 20%, #83817b 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    padding-left: 50px;
+  }
+  .Skill-Sc{
+    display: flex;
+    background-color: #000000;
+  }
+  .aboutImag{
+    width: 30%;
+    height: 30%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+  }
+  progress {
+    width: 50%;
+    height: 30px;
+    color: orange;
+    background: #ffffff;
+  }
+  progress::-webkit-progress-bar {
+    background: #ffffff;
+  }
+  
+  progress::-webkit-progress-value {
+    background: orange;
+  }
+  
+  progress::-moz-progress-bar {
+    color: orange;
+    background: #efefef;
+  }
+  .bar{
+    padding-top: 25px;
+    padding-left: 80px;
+    width: 600%;
+  }
+  h1#sk{
+    padding-left: 50px;
+
+}
+.contactSection-section {
+  background-color: orange;
+  color: rgb(0, 0, 0);
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.contactButton {
+  background-color: rgb(2, 2, 2) ;
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+
+
